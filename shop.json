@@ -1,0 +1,108 @@
+{
+  "shop": {
+    "pickaxes": [
+      {
+        "id": 101,
+        "name": "Wooden Pickaxe",
+        "price": 10,
+        "durability": 20,
+        "mining_speed": 1,
+        "description": "Pickaxe dasar, lambat tapi bisa digunakan."
+      },
+      {
+        "id": 102,
+        "name": "Stone Pickaxe",
+        "price": 25,
+        "durability": 50,
+        "mining_speed": 1.5,
+        "description": "Lebih baik dari kayu, cocok untuk pemula."
+      },
+      {
+        "id": 103,
+        "name": "Iron Pickaxe",
+        "price": 100,
+        "durability": 150,
+        "mining_speed": 2.5,
+        "description": "Pickaxe standar untuk penambang serius."
+      },
+      {
+        "id": 104,
+        "name": "Gold Pickaxe",
+        "price": 200,
+        "durability": 100,
+        "mining_speed": 3.5,
+        "description": "Sangat cepat, tapi daya tahan rendah."
+      },
+      {
+        "id": 105,
+        "name": "Diamond Pickaxe",
+        "price": 500,
+        "durability": 500,
+        "mining_speed": 5,
+        "description": "Kuat dan cepat, cocok untuk penambang profesional."
+      },
+      {
+        "id": 106,
+        "name": "Netherite Pickaxe",
+        "price": 1000,
+        "durability": 800,
+        "mining_speed": 6,
+        "description": "Pickaxe terbaik, sangat kuat dan cepat."
+      },
+      {
+        "id": 107,
+        "name": "Platinum Pickaxe",
+        "price": 1500,
+        "durability": 1000,
+        "mining_speed": 7,
+        "description": "Eksklusif dan lebih cepat dari netherite."
+      }
+    ],
+    "buffs": [
+      {
+        "id": 201,
+        "name": "Mining Boost",
+        "price": 50,
+        "effect": "mining_speed",
+        "multiplier": 1.5,
+        "duration": 300,
+        "description": "Meningkatkan kecepatan menambang selama 5 menit."
+      },
+      {
+        "id": 202,
+        "name": "Durability Boost",
+        "price": 75,
+        "effect": "durability",
+        "multiplier": 1.5,
+        "duration": 300,
+        "description": "Meningkatkan ketahanan alat selama 5 menit."
+      },
+      {
+        "id": 203,
+        "name": "Rare Finder",
+        "price": 100,
+        "effect": "rare_chance",
+        "multiplier": 2,
+        "duration": 300,
+        "description": "Meningkatkan peluang menemukan item langka."
+      },
+      {
+        "id": 204,
+        "name": "Double Drops",
+        "price": 150,
+        "effect": "double_drops",
+        "multiplier": 2,
+        "duration": 300,
+        "description": "Memungkinkan penambang mendapatkan dua kali lipat hasil tambang."
+      },
+      {
+        "id": 205,
+        "name": "Invincible Pickaxe",
+        "price": 300,
+        "effect": "unbreakable",
+        "duration": 600,
+        "description": "Pickaxe tidak akan mengalami keausan selama 10 menit."
+      }
+    ]
+  }
+}
