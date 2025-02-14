@@ -3,105 +3,165 @@
     "pickaxes": [
       {
         "id": 101,
-        "name": "Wooden Pickaxe",
-        "price": 10,
-        "durability": 20,
-        "mining_speed": 1,
-        "description": "Pickaxe dasar, lambat tapi bisa digunakan."
+        "name": "Abyssal Shardbreaker",
+        "price": 50,
+        "description": "Pickaxe yang ditempa dari kegelapan dasar jurang, mampu menembus bebatuan biasa.",
+        "durability": 100,
+        "mining_speed": 15
       },
       {
         "id": 102,
-        "name": "Stone Pickaxe",
-        "price": 25,
-        "durability": 50,
-        "mining_speed": 1.5,
-        "description": "Lebih baik dari kayu, cocok untuk pemula."
+        "name": "Celestial Excavator",
+        "price": 120,
+        "description": "Dibuat dengan sentuhan energi kosmik, mempercepat penambangan dengan cahaya bintang.",
+        "durability": 150,
+        "mining_speed": 20
       },
       {
         "id": 103,
-        "name": "Iron Pickaxe",
-        "price": 100,
-        "durability": 150,
-        "mining_speed": 2.5,
-        "description": "Pickaxe standar untuk penambang serius."
+        "name": "Nebula's Edge",
+        "price": 200,
+        "description": "Ujungnya dipenuhi partikel nebula yang tajam, memotong batu dengan presisi.",
+        "durability": 180,
+        "mining_speed": 25
       },
       {
         "id": 104,
-        "name": "Gold Pickaxe",
-        "price": 200,
-        "durability": 100,
-        "mining_speed": 3.5,
-        "description": "Sangat cepat, tapi daya tahan rendah."
+        "name": "Astral Digger",
+        "price": 300,
+        "description": "Menghubungkan kekuatan alam semesta, mampu menggali rahasia purbakala.",
+        "durability": 220,
+        "mining_speed": 30
       },
       {
         "id": 105,
-        "name": "Diamond Pickaxe",
-        "price": 500,
-        "durability": 500,
-        "mining_speed": 5,
-        "description": "Kuat dan cepat, cocok untuk penambang profesional."
+        "name": "Infernal Bore",
+        "price": 400,
+        "description": "Dihidupkan oleh panas neraka, mampu melelehkan batu dalam sekejap.",
+        "durability": 250,
+        "mining_speed": 35
       },
       {
         "id": 106,
-        "name": "Netherite Pickaxe",
-        "price": 1000,
-        "durability": 800,
-        "mining_speed": 6,
-        "description": "Pickaxe terbaik, sangat kuat dan cepat."
+        "name": "Stellar Pitmaster",
+        "price": 500,
+        "description": "Menguasai kedalaman pit, membuka jalan menuju harta tersembunyi.",
+        "durability": 300,
+        "mining_speed": 40
       },
       {
         "id": 107,
-        "name": "Platinum Pickaxe",
-        "price": 1500,
-        "durability": 1000,
-        "mining_speed": 7,
-        "description": "Eksklusif dan lebih cepat dari netherite."
+        "name": "Void's Embrace",
+        "price": 600,
+        "description": "Memanfaatkan kekosongan semesta untuk menghancurkan batu dengan kekuatan menakutkan.",
+        "durability": 320,
+        "mining_speed": 42
+      },
+      {
+        "id": 108,
+        "name": "Eternal Chisel",
+        "price": 700,
+        "description": "Alat yang tampak abadi, mampu mengukir batu seolah terukir oleh waktu.",
+        "durability": 350,
+        "mining_speed": 45
+      },
+      {
+        "id": 109,
+        "name": "Mythic Quester",
+        "price": 850,
+        "description": "Diperebutkan oleh penjelajah legendaris, membawa aura misterius yang kuat.",
+        "durability": 380,
+        "mining_speed": 48
+      },
+      {
+        "id": 110,
+        "name": "Primordial Ripper",
+        "price": 1000,
+        "description": "Alat kuno yang kasar namun mematikan, mampu merobek batu purba.",
+        "durability": 400,
+        "mining_speed": 50
+      },
+      {
+        "id": 111,
+        "name": "Quantum Delver",
+        "price": 1200,
+        "description": "Menggunakan kekuatan kuantum untuk menembus batas ruang dan waktu batuan.",
+        "durability": 450,
+        "mining_speed": 55
       }
     ],
     "buffs": [
       {
         "id": 201,
-        "name": "Mining Boost",
-        "price": 50,
+        "name": "Temporal Surge",
+        "price": 80,
+        "description": "Mempercepat waktu sejenak, meningkatkan kecepatan penambangan secara drastis.",
         "effect": "mining_speed",
-        "multiplier": 1.5,
-        "duration": 300,
-        "description": "Meningkatkan kecepatan menambang selama 5 menit."
+        "multiplier": 5,
+        "duration": 60
       },
       {
         "id": 202,
-        "name": "Durability Boost",
-        "price": 75,
-        "effect": "durability",
-        "multiplier": 1.5,
-        "duration": 300,
-        "description": "Meningkatkan ketahanan alat selama 5 menit."
+        "name": "Ethereal Boost",
+        "price": 100,
+        "description": "Menyalurkan energi gaib untuk meningkatkan kecepatan kerja pickaxe.",
+        "effect": "mining_speed",
+        "multiplier": 7,
+        "duration": 45
       },
       {
         "id": 203,
-        "name": "Rare Finder",
-        "price": 100,
-        "effect": "rare_chance",
-        "multiplier": 2,
-        "duration": 300,
-        "description": "Meningkatkan peluang menemukan item langka."
+        "name": "Cosmic Infusion",
+        "price": 130,
+        "description": "Menyuntikkan kekuatan kosmik untuk mempercepat proses penambangan.",
+        "effect": "mining_speed",
+        "multiplier": 10,
+        "duration": 50
       },
       {
         "id": 204,
-        "name": "Double Drops",
-        "price": 150,
-        "effect": "double_drops",
-        "multiplier": 2,
-        "duration": 300,
-        "description": "Memungkinkan penambang mendapatkan dua kali lipat hasil tambang."
+        "name": "Astral Momentum",
+        "price": 140,
+        "description": "Memberikan dorongan kecepatan dari energi bintang yang mengalir.",
+        "effect": "mining_speed",
+        "multiplier": 8,
+        "duration": 55
       },
       {
         "id": 205,
-        "name": "Invincible Pickaxe",
-        "price": 300,
-        "effect": "unbreakable",
-        "duration": 600,
-        "description": "Pickaxe tidak akan mengalami keausan selama 10 menit."
+        "name": "Stone's Endurance",
+        "price": 90,
+        "description": "Meningkatkan daya tahan alat dengan mengurangi keausan saat penambangan.",
+        "effect": "reduce_durability_loss",
+        "multiplier": 10,
+        "duration": 60
+      },
+      {
+        "id": 206,
+        "name": "Obsidian Shield",
+        "price": 110,
+        "description": "Membentuk perisai obsidian untuk melindungi pickaxe dari kerusakan berlebih.",
+        "effect": "reduce_durability_loss",
+        "multiplier": 12,
+        "duration": 75
+      },
+      {
+        "id": 207,
+        "name": "Temporal Fortitude",
+        "price": 140,
+        "description": "Mengubah waktu sejenak untuk mengurangi laju keausan pickaxe.",
+        "effect": "reduce_durability_loss",
+        "multiplier": 15,
+        "duration": 90
+      },
+      {
+        "id": 208,
+        "name": "Primordial Guard",
+        "price": 160,
+        "description": "Memanggil kekuatan purba untuk memberikan perlindungan ekstra pada alat tambang.",
+        "effect": "reduce_durability_loss",
+        "multiplier": 20,
+        "duration": 80
       }
     ]
   }
