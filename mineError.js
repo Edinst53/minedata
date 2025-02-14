@@ -277,7 +277,7 @@ module.exports = {
         message = "❌ Format salah. Gunakan: !mine tukar coin/money (jumlah) (min. 100)";
       } else if (tipe === "coin") {
         if (jumlah < 10 || user.balance < jumlah) {
-          message = "❌ Minimal tukar 10 coin atau saldo coin tidak mencukupi.";
+          message = "❌ Minimal tukar 100 coin atau saldo coin tidak mencukupi.";
         } else {
           let rateData = getExchangeRate();
           user.balance -= jumlah;
